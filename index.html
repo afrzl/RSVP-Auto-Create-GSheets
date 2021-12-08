@@ -11,6 +11,25 @@
     <link rel="stylesheet" href="css/styles-merged.css" />
     <link rel="stylesheet" href="css/style.css" />
 
+    <style>
+      @media screen and (min-device-width: 1030px) {
+        .flexslider {
+          background-image: url(img/img.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
+      @media screen and (max-device-width: 1030px) {
+        .flexslider {
+          background-image: url(img/rsvp\ mobile.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
+    </style>
+
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
@@ -52,9 +71,6 @@
           </div>
         </div>
       </div>
-      <ul class="slides">
-        <li style="background-image: url(img/img.jpg)" data></li>
-      </ul>
     </section>
 
     <section class="probootstrap-section probootstrap-section-colored probootstrap-wedding-countdown">
@@ -82,27 +98,27 @@
               <form class="probootstrap-form">
                 <div class="form-group">
                   <label for="email">Email</label>
-                  <input type="email" name="email" class="form-control" id="email" />
+                  <input type="email" name="Email" class="form-control" id="email" />
                 </div>
                 <div class="form-group">
                   <label for="name">Nama Lengkap</label>
-                  <input type="text" class="form-control" id="name" />
+                  <input type="text" name="Name" class="form-control" id="name" />
                 </div>
                 <div class="form-group">
-                  <label for="name">Username (yang asiq ya sobatt)</label>
-                  <input type="text" class="form-control" id="name" />
+                  <label for="username">Username (yang asiq ya sobatt)</label>
+                  <input type="text" name="Username" class="form-control" id="username />
                 </div>
                 <div class="form-group">
-                  <label for="name">Status Keanggotaan</label>
-                  <select class="form-control" id="cars" name="cars">
+                  <label for="Keanggotaan">Status Keanggotaan</label>
+                  <select class="form-control" id="Keanggotaan" name="Keanggotaan">
                     <option value="">-</option>
                     <option value="Himaster">Himaster</option>
                     <option value="Maganger">Maganger</option>
                   </select>
                 </div>
                 <div class="form-group">
-                  <label for="name">Bidang</label>
-                  <select class="form-control" id="cars" name="cars">
+                  <label for="Bidang">Bidang</label>
+                  <select class="form-control" id="Bidang" name="Bidang">
                     <option value="">-</option>
                     <option value="Sekretaris">Sekretaris</option>
                     <option value="Bendahara">Bendahara</option>
@@ -118,17 +134,17 @@
                 <div class="form-group">
                   <label for="name">Konfirmasi Kehadiran</label>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked />
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Hadir" checked />
                     <label class="form-check-label" for="exampleRadios1"> Hadir </label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" />
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="Tidak Hadir" />
                     <label class="form-check-label" for="exampleRadios2"> Tidak Hadir </label>
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="note">Alasan jika tidak hadir</label>
-                  <textarea name="" id="note" cols="20" rows="5" class="form-control"></textarea>
+                  <label for="Alasan">Alasan jika tidak hadir</label>
+                  <textarea name="Alasan" id="Alasan" cols="20" rows="5" class="form-control"></textarea>
                 </div>
                 <div class="form-group">
                   <input type="submit" class="btn btn-primary btn-lg" value="Kirim RSVP" />
