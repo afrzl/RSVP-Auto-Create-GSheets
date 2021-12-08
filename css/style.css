@@ -1062,7 +1062,7 @@ a:active {
   .slider-height,
   .flexslider,
   .flexslider .slides > li {
-    height: 10%;
+    height: 30vh;
   }
 }
 
@@ -1070,7 +1070,7 @@ a:active {
   .slider-height,
   .flexslider,
   .flexslider .slides > li {
-    height: 70vh;
+    height: 100vh;
   }
 }
 
