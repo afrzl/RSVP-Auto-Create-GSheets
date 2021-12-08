@@ -561,8 +561,12 @@ a:active {
 
 @media screen and (max-width: 768px) {
   .text-intro-wrap .text-intro h1 {
-    font-size: 50px;
-    line-height: 75px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .text-intro-wrap .text-intro h2 {
+    font-size: 10px;
+    line-height: 20px;
   }
 }
 
@@ -1054,10 +1058,20 @@ a:active {
 }
 
 /* Flexslider override style */
-.slider-height,
-.flexslider,
-.flexslider .slides > li {
-  height: 100vh;
+@media screen and (max-width: 768px) {
+  .slider-height,
+  .flexslider,
+  .flexslider .slides > li {
+    height: 30vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slider-height,
+  .flexslider,
+  .flexslider .slides > li {
+    height: 70vh;
+  }
 }
 
 .probootstrap-heading .primary-heading {
