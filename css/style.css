@@ -77,10 +77,13 @@ small,
   font-size: 0.707em;
 }
 
-p,
 ul,
 ol {
   margin-bottom: 1.3em;
+}
+
+p {
+  margin-bottom: 0.2em;
 }
 
 a {
