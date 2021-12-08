@@ -49,19 +49,19 @@
               <form class="probootstrap-form">
                 <div class="form-group">
                   <label for="email">Email</label>
-                  <input type="email" name="Email" class="form-control" id="email" />
+                  <input type="email" name="Email" class="form-control" id="email" required />
                 </div>
                 <div class="form-group">
                   <label for="name">Nama Lengkap</label>
-                  <input type="text" name="Name" class="form-control" id="name" />
+                  <input type="text" name="Name" class="form-control" id="name" required />
                 </div>
                 <div class="form-group">
                   <label for="username">Username (yang asiq ya sobatt)</label>
-                  <input type="text" name="Username" class="form-control" id="username />
+                  <input type="text" name="Username" class="form-control" id="username required/>
                 </div>
                 <div class="form-group">
                   <label for="Keanggotaan">Status Keanggotaan</label>
-                  <select class="form-control" id="Keanggotaan" name="Keanggotaan">
+                  <select class="form-control" id="Keanggotaan" name="Keanggotaan" required>
                     <option value="">-</option>
                     <option value="Himaster">Himaster</option>
                     <option value="Maganger">Maganger</option>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="form-group">
                   <label for="Bidang">Bidang</label>
-                  <select class="form-control" id="Bidang" name="Bidang">
+                  <select class="form-control" id="Bidang" name="Bidang" required>
                     <option value="">-</option>
                     <option value="Sekretaris">Sekretaris</option>
                     <option value="Bendahara">Bendahara</option>
@@ -85,12 +85,12 @@
                 <div class="form-group">
                   <label for="name">Konfirmasi Kehadiran</label>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Hadir" checked />
-                    <label class="form-check-label" for="exampleRadios1"> Hadir </label>
+                    <input class="form-check-input" type="radio" name="Kehadiran" id="Hadir" value="Hadir" checked />
+                    <label class="form-check-label" for="Hadir"> Hadir </label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="Tidak Hadir" />
-                    <label class="form-check-label" for="exampleRadios2"> Tidak Hadir </label>
+                    <input class="form-check-input" type="radio" name="Kehadiran" id="tidak_hadir" value="Tidak Hadir" />
+                    <label class="form-check-label" for="tidak_hadir"> Tidak Hadir </label>
                   </div>
                 </div>
                 <div class="form-group">
@@ -98,7 +98,7 @@
                   <textarea name="Alasan" id="Alasan" cols="20" rows="5" class="form-control"></textarea>
                 </div>
                 <div class="form-group">
-                  <p>More Info :</p>
+                  <p>More Info</p>
                   <p>Ihsan : <a href="https://wa.me/6285229957714">085229957714</a></p>
                 </div>
                 <div class="form-group">
